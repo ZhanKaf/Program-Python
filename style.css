@@ -1,0 +1,28 @@
+@keyframes color_change{
+    0% {color:aqua;}
+    50% {color:rgb(15, 102, 102);}
+    100% {color:rgb(5, 71, 71);}
+}
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #115b81; /* Warna latar belakang laman web */
+    color: #d8dfe3; /* Warna teks */ 
+}
+div {
+  display: flex;
+  justify-content: right;
+}
+h1 {
+    color: #a8aea8; /* Warna tajuk (header)*/
+    font-size: 24px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+    text-align: center;
+    animation: color_change 3s infinite;
+}
+h2:hover {
+    animation: color_change 3s  infinite;
+}
+img {
+    width: 50%;
+}
